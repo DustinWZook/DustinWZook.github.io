@@ -1,13 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	
-	<title>UPDATE ME!</title>
-
+	<title>Dustin Zook</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	
-	
-	<h1> testing</h1>
+	<nav>
+		<ul id="navUl">
+			<li><a href="index.html">Dustin Zook</a></li>
+			<li><a href="#aboutMeDiv">About</a></li>
+			<li><a href="#skillsDiv">Skills</a></li>
+			<li><a href="#projectsDiv">Projects</a></li>
+			<li><a href="#contactDiv">Contact</a></li>
+		</ul>
+	</nav>
+	<div id="aboutMeDiv">
+		<p></p>
+	</div>
+	<div class="divSpacing" id="aboutMe">
+		<div>
+			<h1>Hello, I'm Dustin!</h1>
+			<p>I am a software developer that recently graduated from Codeup, and an Army veteran. I'm passionate about
+				creating code that impacts lives, whether it simplifies a process for another developer or improves the
+				quality of life for others.</p>
+		</div>
+		<img id="personalPhoto" src="images/Dustin_Photo.JPG" alt="Dustin Zook">
+	</div>
+	<div class="divSpacing" id="skillsDiv">
+		<p></p>
+	</div>
+	<div class="containers" id="skills">
+		<h1>Skills</h1>
+		<div id="ulDiv">
+			
+			<ul class="ulSkills" id="ulSkills1">
+				<li class="liSkills">HTML</li>
+				<li class="liSkills">CSS</li>
+				<li class="liSkills">Bootstrap</li>
+				<li class="liSkills">JavaScript</li>
+				<li class="liSkills">jQuery</li>
+				<li class="liSkills">Java SE</li>
+				<li class="liSkills">Java EE (Servlets, JSP</li>
+			</ul>
+			<ul class="ulSkills" id="ulSkills2">
+				<li class="liSkills">Spring</li>
+				<li class="liSkills">MySQL</li>
+				<li class="liSkills">Thymeleaf</li>
+				<li class="liSkills">Object-Oriented Programming</li>
+				<li class="liSkills">Test-Driven Development</li>
+				<li class="liSkills">Version Control with Git</li>
+				<li class="liSkills">Paired Programming</li>
+			</ul>
+		</div>
+	</div>
+	<div class="divSpacing" id="projectsDiv">
+		<p></p>
+	</div>
+	<div class="containers" id="projects">
+		<h1>Projects</h1>
+		<p>Coming Soon!</p>
+	</div>
+	<div class="divSpacing" id="contactDiv">
+		<p></p>
+	</div>
+	<div class="containers" id="contact">
+		<h1>Contact</h1>
+		
+		<form action="https://formspree.io/f/mqkobagr" method="POST">
+			<label>Name: </label>
+			<input type="text" name="name">
+			
+			<label>Email: </label>
+			<input type="email" name="email">
+			
+			<label>Message: </label>
+			<textarea name="message"></textarea>
+			
+			<button type="submit">Send</button>
+		</form>
+	</div>
+	<footer>
+		<ul id="footerUl">
+			<li><a href="https://www.linkedin.com/in/dustin-zook/" class="fa fa-linkedin"></a></li>
+			<li><a href="https://github.com/DustinWZook" class="fa fa-github"></a></li>
+			<li><a href="https://alumni.codeup.com/students/1696" class="fa fa-code"></a></li>
+		</ul>
+	</footer>
+
 </body>
 </html>

@@ -1,0 +1,144 @@
+
+body{
+    background-color: #012a4a;
+    color: white;
+    margin: 0;
+}
+nav{
+    background-color: #3d5a80;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 1em;
+}
+
+nav a:hover{
+    background-color: #012a4a;
+}
+
+#navUl{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li:nth-child(2){
+    margin-left: auto;
+}
+
+#personalPhoto{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+#aboutMe {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    font-size: x-large;
+    margin: 150px auto auto;
+}
+#aboutMeDiv{
+    margin-bottom: 50px;
+    height: 50px;
+}
+.containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    flex-direction: column;
+    font-size: x-large;
+    margin: 100px auto auto;
+}
+#ulDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.ulSkills{
+    margin: 10px;
+    padding: 0;
+}
+#ulSkills1{
+    margin-left: 125px;
+}
+
+#ulSkills2{
+    margin-left: 150px;
+}
+
+.liSkills{
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+input{
+    margin-bottom: 10px;
+    background-color: #3d5a80;
+    color: white;
+}
+
+textarea{
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: #3d5a80;
+    color: white;
+}
+
+button{
+    width: 50px;
+    background-color: #3d5a80;
+    color: white;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: #3d5a80;
+    margin-top: 150px;
+}
+
+#footerUl{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 1em;
+}
+
+footer li{
+    height: 100%;
+}
+
+footer a:hover{
+    background-color: #012a4a;
+    color: white;
+}
