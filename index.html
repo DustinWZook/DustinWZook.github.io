@@ -3,11 +3,12 @@
 <head>
 	
 	<title>Dustin Zook</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="index.css">
 </head>
 <body>
 	<nav>
-		<ul>
+		<ul id="navUl">
 			<li><a href="index.html">Dustin Zook</a></li>
 			<li><a href="#aboutMeDiv">About</a></li>
 			<li><a href="#skillsDiv">Skills</a></li>
@@ -20,10 +21,10 @@
 	</div>
 	<div class="divSpacing" id="aboutMe">
 		<div>
-			<h1>Dustin Zook</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci modi molestiae quae repellendus rerum.
-				Aliquam at, autem doloribus eaque fuga in iure nostrum qui similique totam, vel veritatis! Laudantium,
-				quis.</p>
+			<h1>Hello, I'm Dustin!</h1>
+			<p>I am a software developer that recently graduated from Codeup, and an Army veteran. I'm passionate about
+				creating code that impacts lives, whether it simplifies a process for another developer or improves the
+				quality of life for others.</p>
 		</div>
 		<img id="personalPhoto" src="images/Dustin_Photo.JPG" alt="Dustin Zook">
 	</div>
@@ -32,25 +33,60 @@
 	</div>
 	<div class="containers" id="skills">
 		<h1>Skills</h1>
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae corporis cum debitis, deserunt doloribus ea earum eius illo illum in minima nesciunt perspiciatis quibusdam quos sed soluta voluptate voluptatum! Ipsam!
-	</p>
+		<div id="ulDiv">
+			<ul class="ulSkills">
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>Bootstrap</li>
+				<li>JavaScript</li>
+				<li>jQuery</li>
+				<li>Java SE</li>
+				<li>Java EE (Servlets, JSP</li>
+			</ul>
+			<ul class="ulSkills">
+				<li>Spring</li>
+				<li>MySQL</li>
+				<li>Thymeleaf</li>
+				<li>Object-Oriented Programming</li>
+				<li>Test-Driven Development</li>
+				<li>Version Control with Git</li>
+				<li>Paired Programming</li>
+			</ul>
+		</div>
 	</div>
 	<div class="divSpacing" id="projectsDiv">
 		<p></p>
 	</div>
 	<div class="containers" id="projects">
 		<h1>Projects</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias cum dolorem, hic ipsam numquam voluptatem. Dolorem expedita nostrum odio quasi rem! Dicta eum illo in optio perspiciatis praesentium quam soluta?</p>
+		<p>Coming Soon!</p>
 	</div>
 	<div class="divSpacing" id="contactDiv">
 		<p></p>
 	</div>
 	<div class="containers" id="contact">
 		<h1>Contact</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium culpa cum dolorem fuga fugit hic illo ipsa laudantium nulla numquam officiis quidem quod repellendus sint sunt tenetur ullam, veniam vero.</p>
+		
+			<form action="https://formspree.io/f/mqkobagr" method="POST">
+					<label>Name: </label>
+						<input type="text" name="name">
+					
+					<label>Email: </label>
+						<input type="email" name="email">
+					
+					<label>Message: </label>
+						<textarea name="message"></textarea>
+					
+					<button type="submit">Send</button>
+			</form>
 	</div>
-	
+	<footer>
+		<ul id="footerUl">
+			<li><a href="https://www.linkedin.com/in/dustin-zook/" class="fa fa-linkedin"></a></li>
+			<li><a href="https://github.com/DustinWZook" class="fa fa-github"></a></li>
+			<li><a href="https://alumni.codeup.com/students/1696" class="fa fa-code"></a></li>
+		</ul>
+	</footer>
 
 </body>
 </html>

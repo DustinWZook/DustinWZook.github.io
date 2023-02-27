@@ -21,7 +21,7 @@ nav a:hover{
     background-color: #012a4a;
 }
 
-ul{
+#navUl{
     list-style: none;
     display: flex;
     padding: 0;
@@ -59,4 +59,73 @@ nav ul li:nth-child(2){
     flex-direction: column;
     font-size: x-large;
     margin: 100px auto auto;
+}
+#ulDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.ulSkills{
+    margin: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+input{
+    margin-bottom: 10px;
+    background-color: #3d5a80;
+    color: white;
+}
+
+textarea{
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: #3d5a80;
+    color: white;
+}
+
+button{
+    width: 50px;
+    background-color: #3d5a80;
+    color: white;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: #3d5a80;
+    margin-top: 150px;
+}
+
+#footerUl{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 1em;
+}
+
+footer li{
+    height: 100%;
+}
+
+footer a:hover{
+    background-color: #012a4a;
+    color: white;
 }
